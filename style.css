@@ -1103,3 +1103,13 @@ td:nth-child(4) { font-weight: 700; color: #BDA070; }
     max-width: 100%;
   }
 }
+.stat-pulse::after {
+  content: '♡';
+  font-family: Arial, sans-serif;
+  font-size: 48px;
+  color: #F1C9DA;
+  top: 78px;
+  right: 18px;
+  line-height: 1;
+}
+
