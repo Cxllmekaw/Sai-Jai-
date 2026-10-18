@@ -1124,3 +1124,13 @@ td:nth-child(4) { font-weight: 700; color: #BDA070; }
   right: 18px;
   line-height: 1;
 }
+
+/* ให้ไอคอนชีพจรเหมือนการ์ดความดัน */
+.stat-pulse::after {
+  content: '♡';
+  font-family: 'Nunito', sans-serif;
+  font-size: 90px;
+  color: #F7CBD93B;
+  top: 65px;
+  right: 18px;
+}
